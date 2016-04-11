@@ -15,7 +15,7 @@ sudo apt-get install i2c-tools
 List the i2c adapters available:  
 i2cdetect -l  
 You are going to see something like this:  
->>i2c-1	i2c       	3f804000.i2c                    	I2C adapter  
+i2c-1	i2c       	3f804000.i2c                    	I2C adapter  
 The device can be reached by "/dev/i2c-1".  
 And i2c_bus=1 in this situation.  
 Connect the MPU6050 and verify the i2c address  
