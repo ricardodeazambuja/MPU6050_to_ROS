@@ -1,5 +1,5 @@
 # MPU6050_to_ROS
-Reads data from MPU6050 using a RaspberryPI and sends to ROS (Rosbridge)
+Reads data from MPU6050 using a RaspberryPI and sends to ROS (Rosbridge)  
 Based on:  
 http://blog.bitify.co.uk/2013/11/reading-data-from-mpu-6050-on-raspberry.html  
 
