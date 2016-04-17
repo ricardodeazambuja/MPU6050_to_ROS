@@ -123,7 +123,7 @@ class mpu6050_PI(object):
         ACCEL_CONFIG = self.bus.read_byte_data(self.address, 0x1C)
         self.bus.write_byte_data(self.address, 0x1C, ACCEL_CONFIG | (AFS_SEL<<3))
         # ACCELEROMETER Sensitivity Scale Factor - MPU-6000-Datasheet1.pdf, page 13.
-        self.scale_factor_acc = float(2**(11-int(AFS_SEL)))
+        self.scale_factor_acc = float(2**(14-int(AFS_SEL)))
 
         accel_xout_scaled_max = 0
         accel_yout_scaled_max = 0
