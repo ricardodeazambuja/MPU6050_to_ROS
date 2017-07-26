@@ -50,3 +50,6 @@ sudo apt-get install i2c-tools libi2c-dev python-dev python-smbus
 
 To query the functionalities of an  I2C  bus:  
 i2cdetect -F 1  
+
+
+http://ricardodeazambuja.com/
