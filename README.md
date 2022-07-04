@@ -51,5 +51,7 @@ sudo apt-get install i2c-tools libi2c-dev python-dev python-smbus
 To query the functionalities of an  I2C  bus:  
 i2cdetect -F 1  
 
+## Real-world usage
+When we had to collect acceleration data [for testing the GummiArm](https://www.youtube.com/watch?v=945XSTuKtAI), I used this library.
 
 http://ricardodeazambuja.com/
